@@ -1,0 +1,11 @@
+assertEqual     如果两个值相等，则pass
+assertNotEqual  如果两个值不相等，则pass
+assertTrue      判断bool值为True，则pass
+assertFalse     判断bool值为False，则pass
+assertIsNone    不存在，则pass
+assertIsNotNone 存在，则pass
+
+断言语句类似于
+if not expression:
+    raise AssertionError
+AssertionError
